@@ -6,7 +6,7 @@ int main(){
       int n;
       scanf("%d", &n);
       for(int i = 1; i < sqrt(n); i++){
-            printf("%d ", i * i);
+            printf("%d ", 1ll * i * i);
       }
       return 0;
 }
